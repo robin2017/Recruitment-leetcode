@@ -8,7 +8,7 @@ import java.util.*;
 public class Solution {
     public static void main(String[] args){
         System.out.println("dddd");
-        int[] arr=new int[]{3,2,4};
+        
        new Solution().combine(5,3);
     }
 
@@ -49,6 +49,7 @@ public class Solution {
                 l.remove(l.size()-1);
             }
         }
+        
     }
 
     public ArrayList<ArrayList<Integer>> combine(int n, int k) {
